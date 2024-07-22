@@ -47,7 +47,7 @@ Found in "Sample Data Output/Meusburger_Scraper output"
 
 ## Step 5: extract_stp_file.py
 
-This script extracts all the individual STEP files, storing them in a folder of your choice. 
+This script extracts all the individual STEP files from the STEP file produced by Step 4, and stores them in a folder location of your choice. 
 
 ### Example Usage:
 
