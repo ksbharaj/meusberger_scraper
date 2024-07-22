@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Step 4: Meusberger_Scraper_v1.py
-Run this script using CLI to scrape the STEP Files. They are stored in the Chrome Browser's default download location. 
+Run this script using CLI to scrape the STEP Files. All parts are saved within a single STEP file in the Chrome Browser's default download location. 
 
 Currently, you can choose to scrape from the following sections:
 - "F/P Length": Mould plates for lengthwise mould types
@@ -34,7 +34,7 @@ Currently, you can choose to scrape from the following sections:
 - "H Parts": H 1000 Clamping system
 - "E Parts": Miscellaneous Components
 
-NOTE: "E Parts" currently takes quite a while to run- up to 3 hours, as it contains at least 2000+ parts (this can/will be optimized).
+PLEASE NOTE: "E Parts" currently takes quite a while to run- up to 3 hours, as it contains at least 2000+ parts (this can/will be optimized).
 
 ### Example Usage:
 
