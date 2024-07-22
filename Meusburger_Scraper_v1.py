@@ -90,7 +90,6 @@ def main(sequence_key):
         rows = symmnu_div.find_elements(By.CSS_SELECTOR, scrape_dict[3])
         total_rows = len(rows)
         
-        # Iterate through each downoadable cell in the part table
         for index in range(total_rows):
             symmnu_div = driver.find_element(By.CSS_SELECTOR, scrape_dict[2])
             row = symmnu_div.find_elements(By.CSS_SELECTOR, "table tbody tr")[index]
@@ -98,13 +97,16 @@ def main(sequence_key):
             link = row.find_element(By.TAG_NAME, "td")
             link_1 = link.find_element(By.TAG_NAME, "a")
             icon_lister = link_1.find_element(By.TAG_NAME, "img").get_attribute(scrape_dict[4])
+
+            # Check to ensure the desired part names are scraped/downloaded
             if scrape_dict[5] in icon_lister:
                 link_1.click()
-                time.sleep(1.25)
+                time.sleep(2.5)
 
                 table_div = driver.find_element(By.CSS_SELECTOR, ".js-table.table.frame")
                 table_links = table_div.find_elements(By.CSS_SELECTOR, "table tbody tr td")
 
+                # Iterate through each downloadable cell in the part table
                 for table_link in table_links:
                     try:
                         add_2_cart = table_link.find_element(By.TAG_NAME, "a")
