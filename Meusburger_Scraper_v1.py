@@ -111,7 +111,7 @@ def main(sequence_key):
                     try:
                         add_2_cart = table_link.find_element(By.TAG_NAME, "a")
                         add_2_cart.click()
-                        time.sleep(0.75)
+                        time.sleep(1.0)
 
                         # Handle the pop-up alert
                         WebDriverWait(driver, 5).until(EC.alert_is_present())
