@@ -10,14 +10,17 @@ git clone https://github.com/ksbharaj/meusberger_scraper.git
 cd meusberger_scraper
 ```
 
-## Step 1: Install Packages
+## Step 2: Install Chromedriver
+Download Chromedriver from [here](https://googlechromelabs.github.io/chrome-for-testing/) and ensure it's compatible with your Chrome version. Add it to your system PATH.
+
+## Step 3: Install Packages
 Ideally using Python 3.11, install the attached requirements file
 
 ```sh
 pip install -r requirements.txt
 ```
 
-## Step 2: Meusberger_Scraper_v1.py
+## Step 4: Meusberger_Scraper_v1.py
 Run this script using CLI to extract 3D CAD data using Chromedriver, and store it in your Chrome Browser's default Download location. 
 
 Currently, you can choose to scrape for the following options:
@@ -48,6 +51,15 @@ All the CAD models downloaded from Meusberger are stored in a single STEP file. 
 ```sh
 python extract_stp_file.py path/to/your/step_file.stp path/to/output_directory
 ```
+
+## Dependencies
+- Python 3.8 or higher
+- Chromedriver (compatible with your Chrome version)
+- Required Python packages (see requirements.txt)
+
+## Error Handling and Limitations
+-  scraper may encounter issues if the website structure changes.
+- Long runtime for "E Parts" scraping due to the large number of parts.
 
 
 
