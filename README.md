@@ -58,8 +58,8 @@ python extract_stp_file.py path/to/your/step_file.stp path/to/output_directory
 - Required Python packages (see requirements.txt)
 
 ## Error Handling and Limitations
--  scraper may encounter issues if the website structure changes.
-- Long runtime for "E Parts" scraping due to the large number of parts.
+- Scraper may encounter issues if the website structure changes.
+- As previously mentioned, long runtime for "E Parts" scraping due to the large number of parts.
 
 
 
