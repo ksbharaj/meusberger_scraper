@@ -42,7 +42,7 @@ PLEASE NOTE: "E Parts" currently takes quite a while to run- up to 3 hours, as i
 python Meusburger_Scraper_v1.py "FW Parts" 
 ```
 
-## Step 5: Extract All Step Files from the single STEP downloaded
+## Step 5: extract_stp_file.py
 
 This script extracts all the individual STEP files, storing them in a folder of your choice. 
 
