@@ -1,16 +1,16 @@
-# meusberger_scraper
+# Automated SCraping from CAD parts from "meusburger.com"
 
-# Python Scripts Repository
-
-This repository contains Python scripts for various tasks.
+This repo contains code that uses Chromedriver to scrape sections of Meusberger.com to download 3D CAD (.STP) files related to injection mold tools. Please follow the instructions below to tailor it for your usage.
 
 ## Scripts
+
+### Step 1: Meusberger_Scraper_v1.py
+This script scrapes data from the Meusberger website.
 
 ### extract_stp_file.py
 This script extracts data from .stp files.
 
-### Meusberger_Scraper_v1.py
-This script scrapes data from the Meusberger website.
+
 
 ## Usage
 
