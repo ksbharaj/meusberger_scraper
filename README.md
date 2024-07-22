@@ -1,7 +1,7 @@
 # Automated Scraping of CAD parts from "meusburger.com"
 
 This repo contains scripts to scrape 3D CAD (.STP) files from Meusburger.com using Chromedriver. 
-Meusburger is a leading manufacturer of Mold Making components (please visit https://www.meusburger.com/ for more details). 
+Meusburger is a leading manufacturer of Mold Making components (scraped from their shopping portal: https://ecom.meusburger.com/index/index.asp). 
 
 # Installation
 ## Step 1: Clone the repo
