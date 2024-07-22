@@ -1,13 +1,13 @@
 # Automated Scraping of CAD parts from "meusburger.com"
 
 This repo contains scripts to scrape 3D CAD (.STP) files from Meusburger.com using Chromedriver. 
-Meusberger is a leading manufacturer of Mold Making components (please visit https://www.meusburger.com/ for more details). 
+Meusburger is a leading manufacturer of Mold Making components (please visit https://www.meusburger.com/ for more details). 
 
 # Installation
 ## Step 1: Clone the repo
 ```sh
-git clone https://github.com/ksbharaj/meusberger_scraper.git
-cd meusberger_scraper
+git clone https://github.com/ksbharaj/meusburger_scraper.git
+cd meusburger_scraper
 ```
 
 ## Step 2: Install Chromedriver
@@ -20,7 +20,7 @@ Ideally using Python 3.11, install the attached requirements file
 pip install -r requirements.txt
 ```
 
-## Step 4: Meusberger_Scraper_v1.py
+## Step 4: Meusburger_Scraper_v1.py
 Run this script using CLI to scrape the STEP Files. All parts are saved within a single STEP file in the Chrome Browser's default download location. 
 
 Currently, you can choose to scrape from the following sections:
@@ -39,7 +39,7 @@ PLEASE NOTE: "E Parts" currently takes quite a while to run- up to 3 hours, as i
 ### Example Usage:
 
 ```sh
-python Meusberger_Scraper_v1.py "FW Parts" 
+python Meusburger_Scraper_v1.py "FW Parts" 
 ```
 
 ## Step 5: Extract All Step Files from the single STEP downloaded
