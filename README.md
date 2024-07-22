@@ -39,8 +39,11 @@ PLEASE NOTE: "E Parts" currently takes quite a while to run- up to 3 hours, as i
 ### Example Usage:
 
 ```sh
-python Meusburger_Scraper_v1.py "FW Parts" 
+python Meusburger_Scraper_v1.py "FM Parts" 
 ```
+
+### Example Output:
+Found in "Sample Data Output/Meusburger_Scraper output"
 
 ## Step 5: extract_stp_file.py
 
@@ -51,9 +54,11 @@ This script extracts all the individual STEP files, storing them in a folder of 
 ```sh
 python extract_stp_file.py path/to/your/step_file.stp path/to/output_directory
 ```
+### Example Output:
+Found in "Sample Data Output/extract_stp_file output"
 
 ## Dependencies
-- Python 3.8 or higher
+- Python 3.8 or higher (3.11 ideally)
 - Chromedriver (compatible with your Chrome version)
 - Required Python packages (see requirements.txt)
 
