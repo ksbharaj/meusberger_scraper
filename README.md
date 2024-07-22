@@ -26,10 +26,15 @@ NOTE: "E Parts" currently takes a considerable amount of time to run- up to 3 ho
 python Meusberger_Scraper_v1.py "FW Parts" 
 ```
 
+### Step 2: Extract All Step Files from the single .stp downloading
 
+All the CAD models downloaded from Meusberger are stored in a single STEP file. This script extracts all the individual STEP files, storing them in a location of your choice. 
 
-### extract_stp_file.py
-This script extracts data from .stp files.
+#### Example Usage:
+
+```sh
+python extract_stp_file.py path/to/your/step_file.stp path/to/output_directory
+```
 
 
 
