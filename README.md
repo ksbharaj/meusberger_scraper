@@ -21,9 +21,9 @@ pip install -r requirements.txt
 ```
 
 ## Step 4: Meusberger_Scraper_v1.py
-Run this script using CLI to extract 3D CAD data using Chromedriver, and store it in your Chrome Browser's default Download location. 
+Run this script using CLI to scrape the STEP Files. They are stored in the Chrome Browser's default download location. 
 
-Currently, you can choose to scrape for the following options:
+Currently, you can choose to scrape from the following sections:
 - "F/P Length": Mould plates for lengthwise mould types
 - "F/P Cross": Mould plates for crosswise mould types
 - "FB/P Blocks": Blocks for sliding core moulds 
@@ -32,9 +32,9 @@ Currently, you can choose to scrape for the following options:
 - "FW Parts": Parts for change moulds
 - "FM Parts": Parts for micro moulds
 - "H Parts": H 1000 Clamping system
-- "E Parts": Components
+- "E Parts": Miscellaneous Components
 
-NOTE: "E Parts" currently takes a considerable amount of time to run- up to 3 hours, as it contains atealst 2000+ parts (this can/will be optimized).
+NOTE: "E Parts" currently takes quite a while to run- up to 3 hours, as it contains at least 2000+ parts (this can/will be optimized).
 
 ### Example Usage:
 
