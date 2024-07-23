@@ -32,9 +32,6 @@ Currently, you can choose to scrape from the following sections:
 - "FW Parts": Parts for change moulds
 - "FM Parts": Parts for micro moulds
 - "H Parts": H 1000 Clamping system
-- "E Parts": Miscellaneous Components
-
-PLEASE NOTE: "E Parts" currently takes quite a while to run- up to 3 hours, as it contains at least 2000+ parts (this can/will be optimized).
 
 ### Example Usage:
 
