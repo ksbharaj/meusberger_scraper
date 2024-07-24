@@ -5,6 +5,8 @@ Meusburger is a leading manufacturer of Mold Making components (scraped from the
 
 I'll continue to update this repo to expand on the number of parts extracted. Please feel free to reach out if you have any questions and/or feedback :) 
 
+NOTE: I will update repo on 07/25 AM (EST) with increased scraping speeds and part coverage!
+
 # Installation
 ## Step 1: Clone the repo
 ```sh
